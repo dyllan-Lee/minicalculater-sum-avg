@@ -1,0 +1,54 @@
+body {
+  text-align: center;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: cornflowerblue;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 20px 0 0;
+}
+
+.p10 {
+  padding: 10px 0;
+}
+
+.cal_wrap {
+  width: 500px;
+  margin: 0 auto;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.result {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sum {
+  width: 49%;
+}
+
+.avg {
+  width: 49%;
+}
+
+.check {
+  margin-top: 20px;
+}
